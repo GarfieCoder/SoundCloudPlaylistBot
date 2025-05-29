@@ -59,5 +59,5 @@ def create_playlist(oauth_session, track_ids, title='My Playlist'):
 track_ids = [t['id'] for t in tracks]
 
 #Playlist is created here
-playlist = create_playlist(soundcloud, track_ids, title='Chill Tracks Bot')
+playlist = create_playlist(soundcloud, track_ids, title='change to what you want the playlists title to be')
 print('Playlist created:', playlist['permalink_url'])
